@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useCallback } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import { RegexInput } from './components/RegexInput';
 import { TokenBreakdown } from './components/TokenBreakdown';
 import { TestArea } from './components/TestArea';
@@ -234,6 +235,9 @@ const App = () => {
       
       {/* Documentation Modal */}
       <Documentation isOpen={isDocsOpen} onClose={() => setIsDocsOpen(false)} />
+      
+      {/* Vercel Web Analytics */}
+      <Analytics />
     </div>
   );
 };
