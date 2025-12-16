@@ -1,0 +1,5 @@
+{
+  "name": "Regex Garden",
+  "description": "A calm, production-grade debugger for regular expressions. visualize structure, understand matches, and debug patterns with precision.",
+  "requestFramePermissions": []
+}
